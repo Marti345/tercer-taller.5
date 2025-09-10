@@ -1,0 +1,75 @@
+<html>
+      <head> 
+  <link rel="icon" type="image/x-icon" href="image/icono remo.png" />
+    <link href="css/style.css" rel="stylesheet" />
+<title> Ben 10</title>  
+</head>
+<body>
+  <header>
+    <nav>
+<img class="icono" src="image/icono remo.png" alt="">
+      <a href="index.html"> <li> Inicio </li> </a>
+     <a href="personajes.html"> <li> Personajes </li> </a>
+      <a href="peliculas.html"><li> Peliculas </li> </a>
+    <a href="discuciones.html"> <li> Discuciones </li> </a>
+  
+    </nav>
+ 
+  </header>
+ 
+ <h1>Discuciones</h1>
+<section class="introduccion">
+  <img class="portada" src="image/portada discusion.jpg" alt="">
+ <p>Bienvenido al espacio de discusión y comentarios de Ben 10, un lugar creado especialmente para que los fans de todas las generaciones de la franquicia puedan compartir sus ideas, teorías, opiniones y recuerdos. Aquí podrás debatir sobre tus aliens favoritos, hablar de las películas, comparar las distintas series (desde la original hasta el reboot), recomendar cómics o videojuegos, e incluso proponer nuevas transformaciones que te gustaría ver en el Omnitrix.</p>
+ <p>Este espacio es tuyo para expresarte con libertad y conectar con otros fans que comparten la misma pasión por el universo de Ben 10. Recuerda que todas las opiniones son válidas, siempre que se compartan con respeto. ¡Únete a la conversación y sé parte de esta comunidad intergaláctica!</p>
+ </section>
+ 
+ <form class="mensaje" id="fanForm">
+    <div class="mensaje nombre">
+<label for="">Nombre</label>
+<input type="text" name="nombre" id="nombre">
+
+
+<label for="email">Email</label>
+<input type="text" name="email" id="email" />
+</div>
+<div class="mensaje">
+<label for="message">Mensaje</label>
+<textarea name="message" id="mensaje"></textarea>
+</div>
+<div  class="btnclass">
+	<ul class="actions">
+										<button @click="actualizarTabla()" type="submit" value="Enviar mensaje" class="primary">Enviar</button>
+										
+									</ul>
+</div>
+ </form>
+
+ 
+    <table>
+        <thead>
+        <tr>
+        <th>Nombre</th>
+        <th>Gmail</th>
+        <th>Mensaje</th>
+    </tr>
+    </thead>
+  <tbody id="fanTable"></tbody>   
+    </table>
+
+ <footer>
+   <h1> ©COPY Martin Orozco </h1>
+  <div class="icon">
+    <h3> Mi redes sociales</h3>
+  <ul>
+<a href="https://www.facebook.com/martin.orozco.75873" target="_blank"><i class="fab fa-facebook"></i></a>
+  <a href="https://www.youtube.com/@martinestebanorozcocabra5938" target="_blank"><i class="fab fa-youtube"></i></a>
+  <a href="https://github.com/Marti345/estudiante" target="_blank"><i class="fab fa-github"></i></a>
+								</ul>
+  
+  </div>
+  </footer>
+</body>
+
+</html>
+<script src="js/mensaje.js"></script>

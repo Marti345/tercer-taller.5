@@ -1,0 +1,757 @@
+/* Esta importancion es la que tiene los iconos de las redes sociales*/
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css");
+/* Esta importacion además de mejorar la apariencia del texto, los botones y se encarga de la invocacion de los modals*/
+@import url("https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css");
+*{
+    margin: 0%;
+    padding: 0%;
+} /* Mantiene el header,body,ect. en las paredes*/
+/* Define el tamaño del logo de la pagina*/
+.icono{
+    height: 5rem;
+    width: 5rem;
+} 
+
+html,body {
+    flex-direction: column;
+height: 100%; /* Para empujar el footer hacia abajo*/
+}
+header 
+{background-color: rgb(41, 182, 6);
+text-align:center;
+}
+nav {
+    display: flex;
+    color:white;
+    gap: 13rem;
+    
+}
+
+ul{
+    gap: 112rem;
+ 
+}
+
+.fab{
+    
+      font-size: 3rem;
+      width: 12rem;
+      margin:1rem;
+      color: rgb(241, 241, 241);
+}
+
+a {
+    color:white;
+}
+main {
+  flex: 1;               /* empuja el footer hacia abajo */
+}
+li {
+    text-align: center;
+    margin-top: 2rem;
+    list-style: none;
+}
+li:hover {
+    color:aquamarine;
+}
+main {
+    
+    background-image:url("../image/portada.jpg");
+     background-size: cover;   /* Para que se ajuste al tamaño */
+    background-position: center; /* Centrar la imagen */
+    height: 100vh;
+     display: flex;
+    
+    justify-content: center; /* alinea arriba */
+    align-items: center; /* centra horizontal */
+    padding-top: 12rem; /* baja el bloque sin romper */
+
+}
+.title{
+    height: 20rem;
+    text-align: center;
+    padding: 2rem;
+        font-size: 3.25rem;
+  font-weight: 700;
+  line-height: 3.25rem;
+  color: green;
+    text-transform: uppercase; /* Pone el titulo de portada en el centro y en mayusculas*/ 
+  
+    
+}
+li{
+    color: rgb(102, 255, 0);
+}
+.texto{
+    width: 20rem;
+    margin: 3rem;
+     font-size: 18px;
+}
+.min-footer {
+    
+    color:rgb(28, 196, 42);
+text-align: center;
+    width: 22rem;
+
+
+} 
+.introduccion{
+    
+    align-items: center;
+    margin: 2rem;
+}
+
+
+
+.introduccion p{
+    width: 70rem;
+    margin-left: 6rem;
+    font-size: 18px;
+}
+p {
+    font-size: 18px;
+}
+/* Crea un espacio entre la secciones de la pagina Pelicula.html*/
+.pelicula{
+    margin: 2rem;
+    padding: 2rem;
+}
+.serie{
+    height: 20rem;
+    margin: 2rem;
+}
+.portada {
+    height: 30rem;
+    width: 55rem;
+    justify-content: center;
+    background-position: center;
+    margin-left: 12rem;
+}
+/*Define las imagenes de los personajes en personajes.html y top 10.html */
+
+.img-personaje {
+    height: 30rem;
+    width: 20rem;
+ border: 10px green solid;
+    border-radius: 2rem;
+} 
+/*Define un color especificon en los borders de los personajes */
+.gwen {
+ border: 10px rgb(253, 120, 193) solid;
+}
+.kevin {
+     border: 10px rgb(8, 8, 8) solid;
+}
+.max {
+     border: 10px rgb(221, 49, 49) solid;
+}
+.rook{
+     border: 10px rgb(0, 38, 255) solid;
+}
+.skurd{
+     border: 10px rgb(147, 255, 75) solid;
+}
+.vilgax {
+     border: 10px rgb(41, 77, 8) solid;
+}
+.overflow {
+    border: 10px rgb(165, 24, 24) solid;
+}
+.shockquats{
+    border: 10px rgb(230, 255, 4) solid;
+}
+.Rath{
+    border: 10px rgb(204, 122, 16) solid;
+}
+
+.feedback{
+     border: 10px rgb(83, 83, 83) solid;
+}
+
+.alien-x{
+     border: 10px rgb(0, 0, 0) solid;
+}
+.xrl8{
+     border: 10px rgb(17, 104, 185) solid;
+}
+.diamante{
+     border: 10px rgb(4, 205, 255) solid;
+}
+
+.fuego{
+     border: 10px rgb(255, 104, 4) solid;
+}
+.cuatro-brazos{
+     border: 10px rgb(255, 4, 4) solid;
+}
+
+/*Organiza los input y label de manera vertical*/
+.mensaje{
+display: grid;
+align-items: center;
+margin: 3rem;
+
+}
+/*Define espacio entre los titulos e inputs*/
+.nombre{
+    margin: 2rem;
+    width: 2rem;
+    gap: 2rem;
+display: flex;
+}
+.email{
+    margin: 2rem;
+    width: 2rem;
+    gap: 22222rem;
+}
+
+
+input {
+    width: 15rem;
+}
+/*Define los estilos de la tabla de respuestas*/
+textarea{
+    width: 22rem;
+    height: 12rem;
+}
+/*Define la posicion del boton enviar en la pagina de discuciones*/
+.btnclass{
+    align-items: center;
+    justify-content: center;
+    margin-left: 5rem;
+}
+/*Los estilos de la tabla*/
+table{
+    height: 20rem;
+    width: 75rem;
+    align-self: center;
+  border: 5px green solid;
+  margin-left:5rem;
+
+}
+	table tbody tr {
+			border: solid 1px #8d2525;
+			border-left: 0;
+			border-right: 0;
+		}
+
+        	table tbody tr:nth-child(2n + 1) {
+				background-color: rgba(255, 255, 255, 0.075);
+			}
+
+		table td {
+			padding: 0.75em 0.75em;
+		}
+
+		table th {
+			color: #000000;
+			font-size: 0.9em;
+			font-weight: 600;
+			padding: 0 0.75em 0.75em 0.75em;
+			text-align: left;
+		}
+
+		table thead {
+			border-bottom: solid 2px #0e0d0d;
+		}
+
+		table tfoot {
+			border-top: solid 2px #131212;
+		}
+
+		table.alt {
+			border-collapse: separate;
+		}
+
+			table.alt tbody tr td {
+				border: solid 1px #c92d2d;
+				border-left-width: 0;
+				border-top-width: 0;
+			}
+
+				table.alt tbody tr td:first-child {
+					border-left-width: 1px;
+				}
+
+			table.alt tbody tr:first-child td {
+				border-top-width: 1px;
+			}
+
+			table.alt thead {
+				border-bottom: 0;
+			}
+
+			table.alt tfoot {
+				border-top: 0;
+			}
+/*Por defecto todas los titulos con etiquedas h1 quedaran centrados y con un espacio al rededor del contenido*/
+h1 {
+    text-align: center;
+margin: 2rem;
+}
+h3 {
+    text-align: center;
+    justify-content: center;
+}
+/*Crea un espacio entre los parrafos que esten en distintas etiquetas P */
+p{
+    margin: 1rem;
+    display: grid; 
+}
+/*  Además de crear cierto espacio para que los elementos dentro de esta clase, también hace que estos queden en posicion horizontal*/
+.contenido {
+    display: flex;
+    margin: 2rem;
+}  
+.posicion{
+display:grid;
+justify-content: right;
+
+}
+
+.botones{
+    display: flex;
+    gap: 2rem;
+}
+/* El contennido de la pagina de personajes Hace casi lo mismo del anterior, solo que crea un espacio entre la imagen y el texto, además el margin-left lo mueve el contenido hacia cierta direccion deseada*/
+.contenido2 {
+    display: flex;
+    margin: 2rem;
+    margin-left: 16rem;
+gap: 2rem;
+}
+/*Para el contenido de pagina de las peliculas*/
+.contenido3 {
+    display: flex;
+    
+    margin-left: 7rem;
+gap: 2rem;
+}
+/*Aspecto de los botones*/
+button{
+    text-align: center;
+    background-color: rgb(80, 187, 17);
+    color: bisque;
+    
+    width: 10rem;
+    border-radius: 5rem;
+}
+
+/*Mueve ciertos botones a una dirección deseada*/
+.btn{
+    margin-left: 16rem;
+}
+/*Ajusta el tamaño y espacio de las imagenes en la pagina index*/
+.images {
+    height: 20rem;
+    width: 30rem;
+    margin: 1rem;
+}
+/*La apariencia del modal, se cierra con la x o si se oprime el cursor desde afuera de la ventana modal*/
+.modal-dialog {
+  position: relative;
+  width: auto;
+  margin: 5rem;
+  pointer-events: none;
+  background-color: white;
+  border: 5px black solid;
+  height: 30rem;
+ max-width: 180rem !important;
+
+}
+/*Mantiente los elementos de los modals centrados y posicion horizontal*/
+.av{
+    gap: 4rem;
+    display: flex;
+     align-items: center;
+ justify-content: center;
+    
+}
+.portfolio-modal {
+width: 180rem;    
+}
+/*Tamaño de las imagenes que representan los libros*/
+.libro {
+    width: 10rem;
+    height: 20rem;
+    align-items:baseline;
+}
+/*Los estilos del footer, mantienen los elementos centrados*/
+footer {
+
+    background-color: black;
+    color:white;
+    text-align: center;
+    margin:0;
+}
+
+
+
+/*Mediaquery que ajusta los estilos en que caso de que la pagina se abra en una tableta*/
+@media (max-width: 789px) {
+  nav {
+    
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    
+}
+.icono{
+    height: 5rem;
+    width: 5rem;
+    
+}
+
+.serie{
+    height: 20rem;
+    width: 17rem;
+    justify-content: center;
+}
+.contenido {
+    display: flex;
+    margin: 2rem;
+    
+}  
+
+
+.contenido2 {
+   
+    margin-left: 1rem;
+gap: 1rem;
+display: flex;
+}
+
+.images {
+    height: 20rem;
+    width: 24rem;
+    
+}
+.img-personaje {
+    height: 30rem;
+    width: 20rem;
+ 
+} 
+.texto{
+    width: 27rem;
+    margin: 3rem;
+    margin-left: 1rem;
+}
+.contenido p{
+    width: 23rem;
+
+}
+
+.contenido2 p {
+width: 19rem;
+
+}
+.contenido3 {
+   margin-left: 1rem;
+gap: 1rem;
+display: grid;
+}
+video {
+    width: 39rem;
+}
+.btn{
+    margin-left: 5rem;
+}
+.portada {
+    height: 30rem;
+    width: 43rem;
+    justify-content: center;
+    background-position: center;
+    margin-left: 2rem;
+}
+
+.introduccion p{
+    width: 45rem;
+    margin-left: 1rem;
+}
+
+.mensaje{
+display: grid;
+align-items: center;
+margin: 3rem;
+
+}
+.modal-dialog {
+  position: relative;
+  width: auto;
+  margin: 5rem;
+  pointer-events: none;
+  background-color: white;
+  border: 5px black solid;
+  height: 70rem;
+ max-width: 180rem !important;
+
+}
+.libro {
+    width: 10rem;
+    height: 20rem;
+    align-items:baseline;
+    gap: 1px;
+}
+.nombre{
+    margin: 2rem;
+    width: 2rem;
+    gap: 2rem;
+display: grid;
+}
+
+table{
+    height: 20rem;
+    width: 45rem;
+    align-self: center;
+  border: 5px green solid;
+  margin-left:1rem;
+
+}
+	table tbody tr {
+			border: solid 1px #8d2525;
+			border-left: 0;
+			border-right: 0;
+		}
+
+        	table tbody tr:nth-child(2n + 1) {
+				background-color: rgba(255, 255, 255, 0.075);
+			}
+
+		table td {
+			padding: 0.75em 0.75em;
+		}
+
+		table th {
+			color: #000000;
+			font-size: 0.9em;
+			font-weight: 600;
+			padding: 0 0.75em 0.75em 0.75em;
+			text-align: left;
+		}
+
+		table thead {
+			border-bottom: solid 2px #0e0d0d;
+		}
+
+		table tfoot {
+			border-top: solid 2px #131212;
+		}
+
+		table.alt {
+			border-collapse: separate;
+		}
+
+			table.alt tbody tr td {
+				border: solid 1px #c92d2d;
+				border-left-width: 0;
+				border-top-width: 0;
+			}
+
+				table.alt tbody tr td:first-child {
+					border-left-width: 1px;
+				}
+
+			table.alt tbody tr:first-child td {
+				border-top-width: 1px;
+			}
+
+			table.alt thead {
+				border-bottom: 0;
+			}
+
+			table.alt tfoot {
+				border-top: 0;
+			}
+
+.av{
+    gap: 2rem;
+    display: grid;
+     align-items: center;
+ justify-content: center;
+ 
+    
+}
+.btnclass{
+    
+    margin-left: 1rem;
+}
+}
+/*Mediaquery que ajusta los estilos en que caso de que la pagina se abra en un celular*/
+@media (max-width: 502px) {
+  nav {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    
+}
+.icono{
+    height: 5rem;
+    width: 5rem;
+    
+}
+
+.serie{
+    height: 20rem;
+    width: 27rem;
+    justify-content: center;
+}
+.contenido {
+    display: grid;
+    margin: 2rem;
+    
+}  
+.contenido2 {
+   
+    margin-left: 1rem;
+gap: 1rem;
+display: grid;
+}
+.contenido3 {
+   margin-left: 1rem;
+gap: 1rem;
+display: grid;
+}
+.img-personaje {
+    height: 30rem;
+    width: 28rem;
+ 
+} 
+.texto{
+    width: 27rem;
+    margin: 3rem;
+    margin-left: 1rem;
+}
+.contenido p{
+    width: 25rem;
+
+}
+
+.contenido2 p {
+width: 26rem;
+
+}
+
+
+video {
+    width: 25rem;
+}
+.btn{
+    margin-left: 6rem;
+}
+.portada {
+    height: 30rem;
+    width: 23rem;
+    justify-content: center;
+    background-position: center;
+    margin-left: 2rem;
+}
+
+.introduccion p{
+    width: 25rem;
+    margin-left: 1rem;
+}
+
+.mensaje{
+display: grid;
+align-items: center;
+margin: 3rem;
+
+}
+.modal-dialog {
+  position: relative;
+  width: auto;
+  margin: 5rem;
+  pointer-events: none;
+  background-color: white;
+  border: 5px black solid;
+  height: 70rem;
+ max-width: 180rem !important;
+
+}
+.libro {
+    width: 10rem;
+    height: 20rem;
+    align-items:baseline;
+    gap: 1px;
+}
+.nombre{
+    margin: 2rem;
+    width: 2rem;
+    gap: 2rem;
+display: grid;
+}
+
+table{
+    height: 20rem;
+    width: 25rem;
+ display: flex;
+  margin-left:1rem;
+  border-collapse: collapse;
+  
+
+}
+tr,th {
+    display:grid;
+gap:2rem;
+display: block; 
+   
+}
+table tbody tr {
+     border: solid 1px #8d2525; 
+     border-left: 0; 
+     border-right: 0; 
+    }
+
+
+    table tbody tr:nth-child(2n + 1)     {
+         background-color: rgba(255, 255, 255, 0.075); 
+    }
+table td {
+     padding: 0.75em 0.75em;
+     }
+
+     table th {
+         color: #000000; 
+         font-size: 0.9em; 
+         font-weight: 600; 
+         padding: 0 0.75em 0.75em 0.75em; 
+         text-align: left; }
+table thead { 
+    border-bottom: solid 2px #0e0d0d; 
+
+
+}
+table tfoot { border-top: solid 2px #131212; }
+
+table.alt { border-collapse: separate; }
+
+table.alt tbody tr td {
+    
+    border: solid 1px #c92d2d; 
+    border-left-width: 0; 
+    border-top-width: 0; }
+
+table.alt tbody tr td:first-child { 
+    border-left-width: 1px; 
+}
+table.alt tbody tr:first-child td {
+     border-top-width: 1px; }
+    
+    
+    table.alt thead { border-bottom: 0; } 
+    table.alt tfoot { border-top: 0; }
+    
+     .av{
+    gap: 2rem;
+    display: grid;
+     align-items: center;
+ justify-content: center;
+ 
+    
+}
+.btnclass{
+    
+    margin-left: 1rem;
+}
+}
